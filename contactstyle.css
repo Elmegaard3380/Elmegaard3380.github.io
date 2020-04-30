@@ -123,43 +123,17 @@ body{
       border-color: lightblue;
     border-width: 15px;  
     margin-bottom: 1rem;
-    line-height: 3rem;
-  }
-  .firstname{
-    border-style: solid;
-    border-color: lightblue;
-    border-width: 10px;
-  }
-  .lastname{
-    border-style: solid;
-    border-color: lightblue;
-    border-width: 10px;
-  }
-  .email{
-    margin-left: 33px;
-    border-style: solid;
-    border-color: lightblue;
-    border-width: 10px;
-  }
-  .phonenum{
-    margin-right: 30px;
-    border-style: solid;
-    border-color: lightblue;
-    border-width: 10px;
-  }
-  .prompt{
-     color: white;
-     text-decoration: underline;
-     font-weight: 800;
-  }
-  .phone_email{
-    border-style: solid;
-    border-color: lightblue;
-    border-width: 10px;
-  }
-  .ContactForm label{
-    font-weight: 800;
     color: white;
+    font-weight: 800;
+    height: 850px;
+    
+  
+  }
+  .ContactForm h1{
+    text-decoration: underline;
+  }
+  .ContactForm form{
+    margin-top: 3px;
   }
   footer{
     display: flex;
@@ -188,3 +162,16 @@ body{
   border-style: solid;
   border-color: lightblue;
 }
+.prompt p{
+  text-decoration: underline;
+}
+.Textarea textarea{
+  width: 500px;
+  height: 200px;
+}
+.ContactForm hr{
+  color: black;
+  width: 100%;
+  
+}
+
