@@ -19,7 +19,7 @@ body{
       max-width: inherit;
       border-style: solid;
       border-color: lightblue;
-    border-width: 15px;  
+      border-width: 15px;  
       
       
   
@@ -84,6 +84,7 @@ body{
     border-width: 15px;  
     color: white;
     font-weight: 800;
+    margin-bottom: 1rem;
     
   }
   .Banner h1{
@@ -104,3 +105,86 @@ body{
   .dropdown:hover .dropdown-content {
     display: block;
   }
+  .ContactForm
+  {
+    background-color: darkgray;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 600px;
+      padding: 0 1.15rem;
+      display: flex;
+      flex-direction: column;
+      align-items:center;
+      flex: default;
+      justify-content: space-between;
+      max-width: inherit;
+      border-style: solid;
+      border-color: lightblue;
+    border-width: 15px;  
+    margin-bottom: 1rem;
+    line-height: 3rem;
+  }
+  .firstname{
+    border-style: solid;
+    border-color: lightblue;
+    border-width: 10px;
+  }
+  .lastname{
+    border-style: solid;
+    border-color: lightblue;
+    border-width: 10px;
+  }
+  .email{
+    margin-left: 33px;
+    border-style: solid;
+    border-color: lightblue;
+    border-width: 10px;
+  }
+  .phonenum{
+    margin-right: 30px;
+    border-style: solid;
+    border-color: lightblue;
+    border-width: 10px;
+  }
+  .prompt{
+     color: white;
+     text-decoration: underline;
+     font-weight: 800;
+  }
+  .phone_email{
+    border-style: solid;
+    border-color: lightblue;
+    border-width: 10px;
+  }
+  .ContactForm label{
+    font-weight: 800;
+    color: white;
+  }
+  footer{
+    display: flex;
+    color: white;
+    font-weight: 800;
+    border-style: solid;
+      border-color: lightblue;
+    border-width: 15px;  
+    background-color: darkgray;
+}
+.footleft, .footright{
+    display: block;
+    justify-content: space-between;
+}
+.footleft{
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 1200px;
+    
+}
+.footright{
+    justify-content: end;
+    
+}
+.dropdown-content{
+  border-style: solid;
+  border-color: lightblue;
+}
