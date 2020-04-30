@@ -12,7 +12,7 @@
         <ul class="menu">
             <div class= "right">
                 <li class="logo">
-                   <img src="assets/synthwave d20.jpg" width="32px" height="32px" viewBox="0 0 32 32">
+                   <img src="assets/synthwave d20.jpg " width="32px" height="32px" viewBox="0 0 32 32">
     
                 </li>
                   
@@ -21,9 +21,9 @@
     
             </div>
             <div class="left">
-                <li class="Explore"><a href="influences page.html">My Projects </a></li>
+                <li class="Explore"><a href="">My Projects </a></li>
                 <li class="License"><a href="">About </a></li>
-                <li class="Upload"><a href="contact page.hmtl">Contact</a></li>
+                <li class="Upload"><a href="">Contact</a></li>
                 <li class="dots">
                     <picture>
                         <svg class="dotted" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M6 10c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm12 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm-6 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z" fill= "white"></path></svg>
@@ -42,6 +42,9 @@
 
     </div>
     <div class="ContactForm">
+        <hr>
+        <h1>Contact Form:</h1>
+        <hr>
         <form class="firstname">
             <label for="fnameFirst">First name:</label>
             <input type="text" name="fnameFirst">
@@ -58,7 +61,7 @@
         </form>
         <form class="phonenum"> 
             <label for="phonenumber">Phone number:</label>
-            <input type="number" name="phonenumber">
+            <input type="tel" name="phonenumber">
 
         </form>
         <form class=phone_email>
@@ -73,22 +76,36 @@
 
         </form>
         <div class="dropdown">
-            <span>Province</span>
-            <div class="dropdown-content">
-            <ul>
-                <li>Ontario</li>
-                <li>Quebec</li>
-                <li>Nova Scotia</li>
-                <li> New Brunswick</li>
-                <li>Manitoba</li>
-                <li> British Columbia</li>
-                <li>Prince Edward Island</li>
-                <li>Saskatchewan</li>
-                <li>Alberta</li>
-                <li>Newfoundland and Labrador</li>
-            </ul>
-            </div>
-     </div>
+            <select name="Province">
+                <option value="none">None</option>
+                <option value="ontario">Ontario</option>
+                <option value="quebec">Quebec</option>
+                <option value="nova Scotia">Nova Scotia</option>
+                <option value="new Brunswick">New Brunswick</option>
+                <option value="manitoba">Manitoba</option>
+                <option value="british Columbia">British Columbia</option>
+                <option value="prince Edward Island">Prince Edward Island</option>
+                <option value="saskatchewan">Saskatchewan</option>
+                <option value="alberta">Alberta</option>
+                <option value="newfoundland and Labrador">Newfoundland and Labrador</option>
+
+
+            </select>
+        </div>
+        <hr>
+        <div class="Textarea">
+            <textarea name= "message" placeholder="Write a message here!"></textarea>
+
+        </div>
+        <hr>
+        <div class="submit">
+            
+            <input type="submit" value="Submit">
+        </div>
+        <hr>
+    </div>
+    
+
 
 
         
